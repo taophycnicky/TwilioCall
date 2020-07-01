@@ -10,7 +10,7 @@ import com.twilio.type.PhoneNumber;
 public class MakeCall {
 	
 	public static final String ACCOUNT_SID = "AC72c3d5a86e8a08a277ae75db67b2eac2";
-	public static final String AUTH_TOKEN= "9dea926bbd8a108f2f41924d63a7df1a";
+	public static final String AUTH_TOKEN= "Twilio Token";
 
 	public static void main(String[] args) throws URISyntaxException {
 		Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
